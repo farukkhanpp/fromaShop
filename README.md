@@ -106,6 +106,25 @@ src/
 
 </details>
 
+
+
+
+<div align="center">
+
+# f. forma.
+
+**Thoughtful things. Better everyday.**
+
+A minimal React shop with animated pagination, instant toasts,
+a demo checkout and a light / dark theme.
+
+![React](https://img.shields.io/badge/React-18-344b3b?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-344b3b?style=flat-square&logo=vite&logoColor=white)
+![Theme](https://img.shields.io/badge/Light_%2B_Dark-344b3b?style=flat-square)
+![Demo](https://img.shields.io/badge/Frontend_Demo-8c9c60?style=flat-square)
+
+</div>
+
 ---
 
 <sub>forma. · made with React · designed for everyday</sub>
