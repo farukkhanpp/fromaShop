@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { fallbackProducts } from '../data/products'
+
+
 export function useProducts() {
   const [products, setProducts] = useState([])
   const [loading, setLoading] = useState(true)

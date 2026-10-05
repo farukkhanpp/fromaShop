@@ -2,10 +2,14 @@ import { ArrowUpRight, Star, Check } from "lucide-react";
 import { useCart } from "../context/CartContext";
 import { formatPrice } from "../data/products";
 import { useState } from "react";
+
+
 export default function ProductCard({ product }) {
   const { addToCart, cart } = useCart();
   const [added, setAdded] = useState(false);
+
   const quantity = cart.find((item) => item.id === product.id)?.quantity || 0;
+  
   function handleAdd() {
     addToCart(product);
     setAdded(true);

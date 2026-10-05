@@ -1,5 +1,7 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
+
+
 function buildItems(page, total) {
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
   const items = [1];

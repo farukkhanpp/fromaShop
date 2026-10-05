@@ -1,4 +1,7 @@
 import { Minus, Plus } from "lucide-react";
+
+
+
 export default function QuantityControl({ quantity, onIncrease, onDecrease }) {
   return (
     <div className="quantity-control">

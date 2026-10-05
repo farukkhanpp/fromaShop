@@ -1,5 +1,8 @@
 import { ArrowRight, ShieldCheck, Truck } from "lucide-react";
 import { formatPrice, getShipping, FREE_SHIPPING_MIN } from "../data/products";
+
+
+
 export default function CartSummary({
   totalItems,
   subtotal,

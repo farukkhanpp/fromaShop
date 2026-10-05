@@ -3,6 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { useTheme } from "../context/ThemeContext";
 import { useState } from "react";
+
+
+
 export default function Navbar({ search, setSearch }) {
   const { totalItems } = useCart();
   const { theme, toggle } = useTheme();

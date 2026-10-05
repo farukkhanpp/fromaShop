@@ -3,7 +3,12 @@ import { ArrowDown, SlidersHorizontal, X } from "lucide-react";
 import ProductCard from "../components/ProductCard";
 import Pagination from "../components/Pagination";
 
+
+
 const PAGE_SIZE = 8;
+
+
+
 import { useProducts } from "../hooks/useProducts";
 export default function Home({ search }) {
   const { products, loading, error } = useProducts();

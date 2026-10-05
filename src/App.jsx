@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import SplashScreen from "./components/SplashScreen";
 import Home from "./pages/Home";
 import CartPage from "./pages/CartPage";
 import { Instagram, Facebook, ArrowUpRight } from "lucide-react";
@@ -9,6 +10,9 @@ import { Instagram, Facebook, ArrowUpRight } from "lucide-react";
 
 export default function App() {
   const [search, setSearch] = useState("");
+  const [showSplash, setShowSplash] = useState(true);
+  const hideSplash = useCallback(() => setShowSplash(false), []);
+  if (showSplash) return <SplashScreen onDone={hideSplash} />;
   return (
     <>
       <Navbar search={search} setSearch={setSearch} />

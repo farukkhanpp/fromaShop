@@ -7,6 +7,8 @@ import {
 } from "react";
 import { toast } from "react-toastify";
 
+
+
 const CartContext = createContext(null);
 const STORAGE_KEY = "forma-shopping-cart-v1";
 function readCart() {

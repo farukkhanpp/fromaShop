@@ -1,6 +1,9 @@
 import { Trash2 } from "lucide-react";
 import { formatPrice } from "../data/products";
 import QuantityControl from "./QuantityControl";
+
+
+
 export default function CartItem({ item, increase, decrease, remove }) {
   return (
     <article className="cart-item">

@@ -7,6 +7,9 @@ import CartSummary from "../components/CartSummary";
 import EmptyCart from "../components/EmptyCart";
 import CheckoutModal from "../components/CheckoutModal";
 import { getShipping } from "../data/products";
+
+
+
 export default function CartPage() {
   const {
     cart,
